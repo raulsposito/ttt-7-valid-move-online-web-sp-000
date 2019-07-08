@@ -3,7 +3,7 @@ user_input = gets.strip
 index = user_input.to_i - 1
 
 def valid_move?(board, index)
-  if token.between(0, 8) 
+  if index.between(0, 8) && 
     return TRUE
   else 
     return FALSE
